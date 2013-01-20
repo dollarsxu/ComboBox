@@ -1,0 +1,53 @@
+﻿body
+{
+}
+.ComboboxStyle
+{
+    position: relative;
+    width: 100%;
+    padding: 0px;
+}
+.ComboboxStyle .TextBox
+{
+    width: 100%;
+    border: 1px solid #C0C0C0;
+    height: 15px;
+    font-size: 12px;
+    padding: 2px 5px 2px 2px;
+}
+.ComboboxStyle .ImgButton
+{
+    background-image: url('Down-arrow.gif');
+    height: 21px;
+    margin: 0px;
+    background-position: top left;
+    padding: 0px;
+    width: 21px;
+    border: 0px none;
+}
+.ComboboxStyle .itemlistcontainer
+{
+    position: absolute;
+    width: 100%;
+    background-color: White;
+    overflow: hidden;
+}
+
+.ComboboxStyle .item
+{
+    width: 100%;
+    padding: 2px;
+    height: 14px;
+    cursor: default;
+}
+
+.ComboboxStyle .mouseonver
+{
+    background-color: #000066;
+    color: White;
+}
+.ComboboxStyle .mouseout
+{
+    background-color: white;
+    color: black;
+}
